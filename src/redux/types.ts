@@ -45,5 +45,6 @@ interface loginFail{
 interface logOUt{
      type:authActionTypes.LOGOUT
 }
+
 export type authActionType=loginSuccess|loginPending|loginFail|logOUt;
 
